@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ECworld Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My ECworld Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>My name is KIM EUNCHAE.</p>
+            <p>I am dreaming of a successful career transition as a developer.</p>
+        </section>
+        <section>
+            <h2>My skill</h2>
+            <ul>
+                <li>JAVA</li>
+                <li>Python</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button>Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2021 My Modern Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+위 코드는 HTML5를 기반으로 작성된 모던한 샘플 홈페이지 코드입니다. 이 코드를 기반으로 원하는 대로 수정하시면 됩니다. 이 코드와 함께 사용할 CSS 파일도 필요할 수 있습니다. 그러므로 styles.css 파일을 만들어서 링크해줘야합니다. 예를 들어:
+
+css
+Copy code
+/* styles.css */
+
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color
+
+
+
+
+User
+위의 css코드 끊겼서, 이어서 코드 보여줘
+ChatGPT
+죄송합니다. 아래는 style.css 파일에서 이어지는 나머지 부분입니다.
+
+css
+Copy code
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #666;
+}
+
+/* Main Styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+}
+
+ul {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 2px 2px #ccc;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #666;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666;
+}
+
+
+
+
+
+
