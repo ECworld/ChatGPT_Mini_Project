@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0c9c4b1880ac0111a59384d5b8d5cfce {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0c9c4b1880ac0111a59384d5b8d5cfce" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0c9c4b1880ac0111a59384d5b8d5cfce = L.map(
+                "map_0c9c4b1880ac0111a59384d5b8d5cfce",
+                {
+                    center: [35.15523796081543, 126.89257202148437],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_03b4a1de641cdc6c06756c41b4d7d3b2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0c9c4b1880ac0111a59384d5b8d5cfce);
+        
+    
+            var marker_cluster_152bb6a39ed4d6c7d5be0905a182fb09 = L.markerClusterGroup(
+                {}
+            );
+            map_0c9c4b1880ac0111a59384d5b8d5cfce.addLayer(marker_cluster_152bb6a39ed4d6c7d5be0905a182fb09);
+        
+    
+            var marker_dec71362c7e3497ef29486ca1f359e71 = L.marker(
+                [35.14738845825195, 126.80985260009766],
+                {}
+            ).addTo(marker_cluster_152bb6a39ed4d6c7d5be0905a182fb09);
+        
+    
+        var popup_8f4b81781f920dd19c18ebcc1b9e67ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbe9f6befc35abdd27013ea549823130 = $(`<div id="html_dbe9f6befc35abdd27013ea549823130" style="width: 100.0%; height: 100.0%;">마당발살얼음실 (주소: 광주 광산구 하남로 32번길 17-1)</div>`)[0];
+                popup_8f4b81781f920dd19c18ebcc1b9e67ed.setContent(html_dbe9f6befc35abdd27013ea549823130);
+            
+        
+
+        marker_dec71362c7e3497ef29486ca1f359e71.bindPopup(popup_8f4b81781f920dd19c18ebcc1b9e67ed)
+        ;
+
+        
+    
+    
+            var marker_a3849f347c2f964304c9f60527e5aec2 = L.marker(
+                [35.152015686035156, 126.9080581665039],
+                {}
+            ).addTo(marker_cluster_152bb6a39ed4d6c7d5be0905a182fb09);
+        
+    
+        var popup_f6739250eb3d7d34e3d4616eaae475ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb9eceec0df5d127af3a0faa00e100e2 = $(`<div id="html_fb9eceec0df5d127af3a0faa00e100e2" style="width: 100.0%; height: 100.0%;">백년옥 (주소: 광주 서구 금화로 282번길 43)</div>`)[0];
+                popup_f6739250eb3d7d34e3d4616eaae475ca.setContent(html_fb9eceec0df5d127af3a0faa00e100e2);
+            
+        
+
+        marker_a3849f347c2f964304c9f60527e5aec2.bindPopup(popup_f6739250eb3d7d34e3d4616eaae475ca)
+        ;
+
+        
+    
+    
+            var marker_8c670a3087211db32db945c9300032b3 = L.marker(
+                [35.15324401855469, 126.91936492919922],
+                {}
+            ).addTo(marker_cluster_152bb6a39ed4d6c7d5be0905a182fb09);
+        
+    
+        var popup_bcd78ee4b98a1c6e95eaa58772beef73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4eb6a527ca67d1f506aa3383bed50016 = $(`<div id="html_4eb6a527ca67d1f506aa3383bed50016" style="width: 100.0%; height: 100.0%;">국시랑 (주소: 광주 동구 문화전당로 3-1)</div>`)[0];
+                popup_bcd78ee4b98a1c6e95eaa58772beef73.setContent(html_4eb6a527ca67d1f506aa3383bed50016);
+            
+        
+
+        marker_8c670a3087211db32db945c9300032b3.bindPopup(popup_bcd78ee4b98a1c6e95eaa58772beef73)
+        ;
+
+        
+    
+    
+            var marker_d266b7ef5e720ddc6a735298df05d2a2 = L.marker(
+                [35.143165588378906, 126.92339324951172],
+                {}
+            ).addTo(marker_cluster_152bb6a39ed4d6c7d5be0905a182fb09);
+        
+    
+        var popup_bb344d59caf32dd02ed4bcb486d05479 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baa6af2c2e5189494b6fd98e8d695f93 = $(`<div id="html_baa6af2c2e5189494b6fd98e8d695f93" style="width: 100.0%; height: 100.0%;">부산집 (주소: 광주 동구 필문대로 76번길 10)</div>`)[0];
+                popup_bb344d59caf32dd02ed4bcb486d05479.setContent(html_baa6af2c2e5189494b6fd98e8d695f93);
+            
+        
+
+        marker_d266b7ef5e720ddc6a735298df05d2a2.bindPopup(popup_bb344d59caf32dd02ed4bcb486d05479)
+        ;
+
+        
+    
+    
+            var marker_fa60cb742a182351b4af1571fa8c72e6 = L.marker(
+                [35.1478157043457, 126.91026306152344],
+                {}
+            ).addTo(marker_cluster_152bb6a39ed4d6c7d5be0905a182fb09);
+        
+    
+        var popup_96fc9e2da1f79ebbf10876c830438f33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b7974553b63a7aa22c10fed84a7b569 = $(`<div id="html_2b7974553b63a7aa22c10fed84a7b569" style="width: 100.0%; height: 100.0%;">죠샤이 (주소: 광주 서구 상무대로 714번길 12-4)</div>`)[0];
+                popup_96fc9e2da1f79ebbf10876c830438f33.setContent(html_2b7974553b63a7aa22c10fed84a7b569);
+            
+        
+
+        marker_fa60cb742a182351b4af1571fa8c72e6.bindPopup(popup_96fc9e2da1f79ebbf10876c830438f33)
+        ;
+
+        
+    
+    
+            var marker_1f80c24884d4f6a3453793fc9643bb92 = L.marker(
+                [35.14377212524414, 126.92362976074219],
+                {}
+            ).addTo(marker_cluster_152bb6a39ed4d6c7d5be0905a182fb09);
+        
+    
+        var popup_3b4eeedad240290a7f9779b50076c36c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3785a68145842f9a0dfa4f6d4a195062 = $(`<div id="html_3785a68145842f9a0dfa4f6d4a195062" style="width: 100.0%; height: 100.0%;">마장추어탕 (주소: 광주 동구 필문대로 75-1)</div>`)[0];
+                popup_3b4eeedad240290a7f9779b50076c36c.setContent(html_3785a68145842f9a0dfa4f6d4a195062);
+            
+        
+
+        marker_1f80c24884d4f6a3453793fc9643bb92.bindPopup(popup_3b4eeedad240290a7f9779b50076c36c)
+        ;
+
+        
+    
+    
+            var marker_184c29c828eaf52f9eecb53e817d18b5 = L.marker(
+                [35.14781951904297, 126.90706634521484],
+                {}
+            ).addTo(marker_cluster_152bb6a39ed4d6c7d5be0905a182fb09);
+        
+    
+        var popup_037f04076028e4fd759e9ac5c86b5e14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67c24b5a6a14b6c1a604b267762e1822 = $(`<div id="html_67c24b5a6a14b6c1a604b267762e1822" style="width: 100.0%; height: 100.0%;">교동집 (주소: 광주 서구 치평로 3-9)</div>`)[0];
+                popup_037f04076028e4fd759e9ac5c86b5e14.setContent(html_67c24b5a6a14b6c1a604b267762e1822);
+            
+        
+
+        marker_184c29c828eaf52f9eecb53e817d18b5.bindPopup(popup_037f04076028e4fd759e9ac5c86b5e14)
+        ;
+
+        
+    
+    
+            var marker_7055b4018aa268b6786857c6241e4a1f = L.marker(
+                [35.18415832519531, 126.90404510498047],
+                {}
+            ).addTo(marker_cluster_152bb6a39ed4d6c7d5be0905a182fb09);
+        
+    
+        var popup_0b36fb1eb44260ccb2477111a62fc366 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23a8b7178b941c059c8bf3a576f5e3d0 = $(`<div id="html_23a8b7178b941c059c8bf3a576f5e3d0" style="width: 100.0%; height: 100.0%;">곰바위집 (주소: 광주 북구 우치로8번길 29-1)</div>`)[0];
+                popup_0b36fb1eb44260ccb2477111a62fc366.setContent(html_23a8b7178b941c059c8bf3a576f5e3d0);
+            
+        
+
+        marker_7055b4018aa268b6786857c6241e4a1f.bindPopup(popup_0b36fb1eb44260ccb2477111a62fc366)
+        ;
+
+        
+    
+    
+            var marker_49ee6ebf95eb99a0f0be2e8a79b09ed1 = L.marker(
+                [35.1861686706543, 126.81192779541016],
+                {}
+            ).addTo(marker_cluster_152bb6a39ed4d6c7d5be0905a182fb09);
+        
+    
+        var popup_816d181f3e67c8af47c94bc9c510514e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_527b882b45114ca23130d9f797cc9f2f = $(`<div id="html_527b882b45114ca23130d9f797cc9f2f" style="width: 100.0%; height: 100.0%;">맛나다식당 (주소: 광주 광산구 임방울대로 157)</div>`)[0];
+                popup_816d181f3e67c8af47c94bc9c510514e.setContent(html_527b882b45114ca23130d9f797cc9f2f);
+            
+        
+
+        marker_49ee6ebf95eb99a0f0be2e8a79b09ed1.bindPopup(popup_816d181f3e67c8af47c94bc9c510514e)
+        ;
+
+        
+    
+    
+            var marker_82fd08d792929c28846a429f934e0b30 = L.marker(
+                [35.14683151245117, 126.90811920166016],
+                {}
+            ).addTo(marker_cluster_152bb6a39ed4d6c7d5be0905a182fb09);
+        
+    
+        var popup_f3ec8132a824eaa390f15c5aeb4e6d5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4579a423e7d23dc55b7c3fef2bd4424 = $(`<div id="html_f4579a423e7d23dc55b7c3fef2bd4424" style="width: 100.0%; height: 100.0%;">봉선화 (주소: 광주 서구 치평로 51)</div>`)[0];
+                popup_f3ec8132a824eaa390f15c5aeb4e6d5f.setContent(html_f4579a423e7d23dc55b7c3fef2bd4424);
+            
+        
+
+        marker_82fd08d792929c28846a429f934e0b30.bindPopup(popup_f3ec8132a824eaa390f15c5aeb4e6d5f)
+        ;
+
+        
+    
+</script>
+</html>
